@@ -1,0 +1,133 @@
+
+.cart {
+
+    .react-tel-input {
+        padding: 0 15px !important ;
+        background-color: transparent !important; 
+        border-bottom: 1px solid gray;
+        direction: ltr;
+
+    
+    }
+    .react-tel-input .form-control {
+           padding: 23px !important;
+            padding-left: 50px !important;
+            margin: 0 !important;
+            direction: ltr !important;
+            border: none !important;
+            background-color: transparent !important; 
+            width: 100%;
+    }
+
+
+    .react-tel-input .flag-dropdown {
+        border: none !important;
+        background-color: transparent !important; 
+    }
+
+    .img {
+        display: flex !important;
+    }
+
+    .slick-next {
+        right: 10px;
+    }
+    .slick-prev:before, .slick-next:before {
+        content:  "" !important;
+        background: url("../../assets/Chevron Right.png") !important;
+        background-size: cover !important;
+        background-position: center !important;
+        height: 50px;
+        width: 50px;
+        display: block;
+    }
+    .slick-prev:before {
+        transform: rotate(180deg);
+    }
+
+
+
+
+
+    .form__group {
+        position: relative;
+        padding: 20px 0 0;
+        max-width: 100%;
+      }
+      
+      .form__field {
+        font-family: inherit;
+        width: 100%;
+        border: none;
+        border-bottom: 2px solid #9b9b9b;
+        outline: 0;
+        font-size: 17px;
+        color: #000000;
+        padding: 7px 0 0;
+        background: transparent;
+        transition: border-color 0.2s;
+      }
+      
+      .form__field::placeholder {
+        color: transparent;
+      }
+      
+      .form__field:placeholder-shown ~ .form__label {
+        font-size: 17px;
+        cursor: text;
+        top: 20px;
+      }
+      
+      .form__label {
+        position: absolute;
+        top: 0;
+        display: block;
+        transition: 0.2s;
+        font-size: 17px;
+        color: #000000;
+        pointer-events: none;
+      }
+      
+      .form__field:focus {
+        padding-bottom: 6px;
+        font-weight: 700;
+        border-width: 3px;
+        border-image: linear-gradient(to right, #116399, #38caef);
+        border-image-slice: 1;
+      }
+      
+      .form__field:focus ~ .form__label {
+        position: absolute;
+        top: 0;
+        display: block;
+        transition: 0.2s;
+        font-size: 17px;
+        color: #000000;
+        font-weight: 700;
+      }
+      
+      /* reset input */
+      .form__field:required, .form__field:invalid {
+        box-shadow: none;
+      }
+
+
+     .rmdp-input {
+      padding: 5px  !important;
+      border-top: none;
+      border-left: none;
+      border-right: none;
+      border-bottom: 1px solid;
+      background: #eee;
+      height: auto; 
+      width: 150px;
+      text-align: center;
+      margin: 1px 0;
+     }
+     
+
+}
+
+
+
+

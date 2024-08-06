@@ -1,0 +1,50 @@
+#Products {
+
+  min-height: 100vh;
+  
+    .number-control {
+        display: flex;
+        align-items: center;
+      }
+      
+      .number-left::before,
+      .number-right::after {
+        content: attr(data-content);
+        background-color: #333333;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid black;
+        padding: 5px ;
+        width: 30px;
+        color: white;
+        transition: background-color 0.3s;
+        cursor: pointer;
+      }
+      
+      .number-left::before {
+        content: "-";
+      }
+      
+      .number-right::after {
+        content: "+";
+      }
+      
+      .number-quantity {
+        text-align: center;
+        padding: 5px 5px;
+        border: 0;
+        width: 50px;
+        -moz-appearance: textfield;
+        border-top: 1px solid black;
+        border-bottom: 1px solid black;
+      }
+      
+      .number-left:hover::before,
+      .number-right:hover::after {
+        background-color: #666666;
+      }
+      
+
+
+}
